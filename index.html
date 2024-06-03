@@ -17,15 +17,20 @@
         }
 
         .container {
-            width: 90%;
+            width: 100%;
             max-width: 800px;
             margin: 50px auto;
             text-align: center;
             color: white;
         }
-
+        @media screen and (max-width: 800px) {
+            .square {
+                width: calc(100% - 40px); 
+                margin: 10px;
+            }
+        }
         h1 {
-            font-size: 70px;
+            font-size: 50px;
             font-weight: bold;
             text-transform: uppercase;
             margin-bottom: 25px;
