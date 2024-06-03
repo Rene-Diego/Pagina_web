@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proteccion de Contraseñas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('img/password.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            color: rgb(6, 9, 189);
+        }
+
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+            font-family: 'Times New Roman', serif;
+            color:rgb(255, 0, 0);
+        }
+       h2 {
+
+        font-family: 'Times New Roman', serif;
+        color:rgb(3, 3, 3);
+       }
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .square {
+            width: 225px;
+            height:350px;
+            background-color: rgb(0, 213, 255);
+            border-radius: 10px;
+            margin: 20px;
+            display: inline-block;
+            vertical-align: top;
+        }
+        @media screen and (max-width: 600px) {
+            .square {
+                width: calc(80% - 40px); 
+                margin: 10px;
+            }
+        }
+        .navigation {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/inicio.html">Inicio</a>
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/consejos_generales.html">Consejos generales</a>
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/Protecci%C3%B3n%20_de%20_Contrase%C3%B1as.html">Proteccion de Contraseñas</a>
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/Seguridad_en_Redes.html">Seguridad en Redes Sociales</a>
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/Protecci%C3%B3n_Malware.html">Proteccion contra Malware</a>
+        <a href="file:///C:/Users/diego/OneDrive/Desktop/P%C3%A1gina_web/Recursos_y_Enlaces_%C3%9Atiles.html">Recursos Extras</a>
+
+    </div>
+
+    <div class="container">
+        <h1>Proteccion de Contraseñas</h1>
+        <div class="row">
+            <div class="square">
+<h2><b>Buenas contraseñas</b></h2>
+<h3><li>Contienen letras mayúsculas y minúsculas</li>
+    <h3><li>Contienen números y signos especiales</li></h3>
+<h3>
+    <li>Son fáciles de memorizar para no tener que anotarlas</li></h3>
+    <h3><li>Consisten en porlomenos 10 dígitos</li></h3>
+</h3>
+            </div>
+            
+            <div class="square">
+                <h2><b>Contraseñas peligrosas</b></h2>
+                <h3><li>Nombre propio</li></h3>
+                <h3><li>Nombre de la pareja, de los padres, hijos, amigos etc.</li></h3>
+                <h3><li>Número de teléfono o cumpleaños</li></h3>
+                <h3><li>Secuencias del teclado (p.e."qwertyui" o asdf1234)</li></h3>
+                
+            </div>
+            <div class="square">
+                <h2><b> Use la autenticación de dos factores:</b></h2>
+                <h3>la autenticación de dos factores (2FA) usa una segunda credencial, como un código enviado a través una aplicación o cuenta de correo electrónico, para verificar aún más la identidad del usuario al ingresar</h3>
+            </div>
+          
+        </div>
+        <div class="row">
+          
+            <div class="square">
+                <h2><b>Actualización de contraseñas</b></h2>
+                <h3>Cambie las contraseñas periódicamente. Las contraseñas de las cuentas financieras en línea se deben cambiar cada uno o dos meses</h3>
+            </div>
+            <div><img src="img/candado.png" alt="Descripción de la imagen"></div>
+            <div class="square">
+                <h2><b>Use una VPN en una red wifi pública:</b></h2>
+                <h3>cuando inicia sesión en una red wifi pública sin protección de red privada virtual (VPN) su información puede ser interceptada.</h3>
+            </div>
+                <img src="img/Public.png" alt="Descripción de la imagen">
+    
+        </div>
+        
+    </div>
+    
+</body>
+</html>
