@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proteccion de Contraseñas</title>
     <style>
+        img {
+            width: 100%;
+            height: auto; /* Esto mantiene la proporción de aspecto de la imagen */
+          }
         body {
+            font-size: 16px;
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
@@ -43,7 +48,7 @@
         }
         .square {
             width: 225px;
-            height:350px;
+            height:400px;
             background-color: rgb(0, 213, 255);
             border-radius: 10px;
             margin: 20px;
@@ -52,7 +57,7 @@
         }
         @media screen and (max-width: 600px) {
             .square {
-                width: calc(80% - 40px); 
+                width: calc(100% - 40px); 
                 margin: 10px;
             }
         }
@@ -65,7 +70,9 @@
             left: 0;
             z-index: 999;
         }
-
+p{
+    color: rgba(0, 0, 0, 0.5);
+}
         .navigation a {
             color: white;
             text-decoration: none;
@@ -86,6 +93,12 @@
     </div>
 
     <div class="container">
+        <p>a </p>
+        <p> </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
         <h1>Proteccion de Contraseñas</h1>
         <div class="row">
             <div class="square">
